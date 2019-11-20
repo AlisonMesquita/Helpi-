@@ -1,0 +1,487 @@
+{
+  "id": "aba55b83-356a-43d0-8694-9d1ac896db9a",
+  "version": "2.0",
+  "name": "MateriaHelpiv2",
+  "url": "http://localhost/Helpi2/materia.php",
+  "tests": [{
+    "id": "3a1500c7-45bb-4436-a5da-6f24912c5bf5",
+    "name": "Consultar",
+    "commands": [{
+      "id": "ffcf8b3e-4d9f-4bcf-987f-a58aaac0039c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/materia.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16378ea1-397e-4a6d-bb49-e92f71a90b41",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e2189e0-4cdc-4663-ad3e-e51ab3df4f07",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560406fc73']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58394b4e-fd12-49f3-9194-0eb71ce80c24",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560406fc73']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "CCO"
+    }, {
+      "id": "7dbbcbf8-c1c5-4d06-8409-9ede6510e2b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560406fc73']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c070c899-de1c-40f4-ac71-478462e80c7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd5604513780']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6adecfdd-04be-4771-b1a8-a834dd6e3d25",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd5604513780']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "SI"
+    }, {
+      "id": "06ba2479-7560-4428-9072-f745d041213a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd5604513780']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6712bdf3-f88b-496f-9d17-de1ef328c60b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd5604a0e974']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "201697f7-3847-4b75-bc44-83a7ce0a517c",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd5604a0e974']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Calculo 2"
+    }, {
+      "id": "24d19285-8300-41bf-99ae-4430df883825",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd5604a0e974']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb0fb8f-6abd-46ac-ae7d-bf7abcb6ac81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd5604f84336']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21ae6aa4-16e8-40bd-bb4f-9739bc004cda",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd5604f84336']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "ECO"
+    }, {
+      "id": "56f2a94e-acf6-45c9-9eb5-a0c717aed1b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd5604f84336']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "017ef91e-e180-475f-9731-d77408cb57ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd560561f678']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a32f166c-ba4e-4a6b-ae08-ced41419a494",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560561f678']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49841233-c78c-45d7-9d42-9925ad02dc7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560561f678']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b1ed2427-e028-412a-bee0-1d8fff48bb92",
+    "name": "Alterar",
+    "commands": [{
+      "id": "38b374b9-9fb1-4168-b8da-7a61366a3367",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/materia.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02245cc9-dc77-40fd-b686-b4bf89ee6ef5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d02ac1e0-88ce-41fc-b9de-eb6902e3c14c",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd5608d668f4']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec1adc8b-e599-4644-a708-1f4b33fa0c1a",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd5608d668f4']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Materia alteracao"
+    }, {
+      "id": "4bfb700f-5a7d-4537-a042-3cd263d756c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd5608d668f4']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47137fdb-b21d-4b45-bda0-44b79df8b011",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pgui-cell-edit:nth-child(4)",
+      "targets": [
+        ["css=.pgui-cell-edit:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd56094201c5']/table/tbody/tr/td[4]", "xpath:idRelative"],
+        ["xpath=//td[4]", "xpath:position"],
+        ["xpath=//td[contains(.,'Todos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a99a1a4-18d6-4697-90f7-f0953450ee52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pgui-cell-edit-button",
+      "targets": [
+        ["css=.pgui-cell-edit-button", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd56094201c5']/table/tbody/tr/td[4]/span", "xpath:idRelative"],
+        ["xpath=//td[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb27f8c9-673c-46d7-9d04-a0e7f2aa9acc",
+      "comment": "",
+      "command": "click",
+      "target": "name=cursosquepossuem_edit",
+      "targets": [
+        ["name=cursosquepossuem_edit", "name"],
+        ["css=.form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='cursosquepossuem_edit']", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd560979f9ff']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13251a51-5eaa-43eb-b7ee-531dd99ff6cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=pgpage-materia",
+      "targets": [
+        ["id=pgpage-materia", "id"],
+        ["css=#pgpage-materia", "css:finder"],
+        ["xpath=//body[@id='pgpage-materia']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a85527a5-efc4-488f-addb-97bcadf950ba",
+      "comment": "",
+      "command": "type",
+      "target": "name=cursosquepossuem_edit",
+      "targets": [
+        ["name=cursosquepossuem_edit", "name"],
+        ["css=.form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='cursosquepossuem_edit']", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd560979f9ff']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Nenhum"
+    }, {
+      "id": "f34932e2-1d00-4d80-8f10-9c376f730297",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-save",
+      "targets": [
+        ["css=.js-save", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd560979f9ff']/span/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/span/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7507286-ba63-4c2b-927f-94bea9987403",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd56094201c5']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d33c01d-55b1-4090-a6ee-4ada369f273f",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd56094201c5']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c218c117-d524-4ed5-aba5-f6f5dc083a0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd56094201c5']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "12fa2c60-5faa-4a4f-a1d7-2dc103c2742e",
+    "name": "Remover",
+    "commands": [{
+      "id": "8bed8ef6-1c00-4dd5-97d3-3a0e18511f73",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/materia.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a767aa8-c0a2-41ea-a380-ae4a300918e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9567ab79-08bd-415f-a4d8-13b82360111f",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560c45de7b']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "299a2726-7c79-4362-8ebe-b6cd8671b794",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560c45de7b']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Materia Removivel"
+    }, {
+      "id": "0f4982c4-3531-49ae-ba31-a579a4e6ace1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='materiaGrid_5dd560c45de7b']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "11feb0be-4430-4a2a-b941-0eef6b978050",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-remove",
+      "targets": [
+        ["css=.icon-remove", "css:finder"],
+        ["xpath=//div[@id='materiaGrid_5dd560cb73875']/table/tbody/tr/td[2]/span[3]/a/i", "xpath:idRelative"],
+        ["xpath=//span[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71a75fab-491a-4c12-9d3d-35d0b3786a7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//body[@id='pgpage-materia']/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50244c3c-f5b1-4f21-b900-4273b44b7a55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.modal-footer:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//body[@id='pgpage-materia']/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec4c6fa-43e8-4e8c-b084-bf2de5739a10",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.modal-footer:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//body[@id='pgpage-materia']/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9769f99f-b469-4d98-a96f-467eaeb5070d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a1500c7-45bb-4436-a5da-6f24912c5bf5"]
+  }],
+  "urls": ["http://localhost/Helpi2/materia.php"],
+  "plugins": []
+}

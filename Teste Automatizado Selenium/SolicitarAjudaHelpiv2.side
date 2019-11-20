@@ -1,0 +1,425 @@
+{
+  "id": "567c33f1-732c-4072-a17a-cdfdeedcc9c6",
+  "version": "2.0",
+  "name": "SolicitarAjudaHelpiv2",
+  "url": "http://localhost/Helpi2/solicitarajuda.php",
+  "tests": [{
+    "id": "eb6f7a2d-8232-44ee-9401-397974e13b0f",
+    "name": "Consultar",
+    "commands": [{
+      "id": "ab884bbc-1581-4f0e-8ca5-58938278d4ad",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/solicitarajuda.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baa95187-3017-490b-ae26-23c109113a40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30ed6851-cef7-49a8-9bfd-d5c2e8ebce9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd56167b012f']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee275f3e-4765-4fd6-b410-d138b5d4d02e",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd56167b012f']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "CCO"
+    }, {
+      "id": "3138e5ca-d27d-4def-9480-d4688cb1b4ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd56167b012f']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3311d05-6fe0-4b12-92b4-f43a2e51bfbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5616b379c5']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac4b28d-54c2-42d2-9048-1058b9a2c146",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5616b379c5']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Engenharia de software"
+    }, {
+      "id": "fee1213e-ccaa-4d51-a9c5-7244b66dc3a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5616b379c5']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abbc3036-8361-48b7-92f6-904b20197426",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561713f723']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc9c0b3d-cb6f-4ef0-9395-77b1ff607a30",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561713f723']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf5d25e0-d923-4ac1-a113-445a15e2fc79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561713f723']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed090060-2493-43c5-baf1-c7962d0aec8f",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561713f723']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Lucas"
+    }, {
+      "id": "ae628240-469f-4c22-888d-a7c44535c4d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561713f723']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9711f5fd-100d-4a90-899e-40dfe1d13fb5",
+    "name": "Alterar",
+    "commands": [{
+      "id": "4f8b4913-f46c-4bcf-aff7-597bae866685",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/solicitarajuda.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bfd630a-6189-4874-8f96-5d5d8e3b98d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b474749-6989-436c-acb0-4aec6ee30a7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5618ec1f9c']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf2693ce-3ca9-4455-b812-58c1f1fc51dc",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5618ec1f9c']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "096cf98e-2762-44fe-9ffb-7e5a9995637b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5618ec1f9c']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c9dc83-2c81-402d-a061-d60f42f8dcdc",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd56195ceb91']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd4f6d1-4e57-4b7e-b0b7-f5dcaaf21ff3",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd56195ceb91']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Alterar"
+    }, {
+      "id": "a0c16cb1-b2b4-4b02-a0df-e652a06c3cf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd56195ceb91']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a950209-1498-4b6e-a3ed-ab1e1cfa6c89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pgui-cell-edit-button",
+      "targets": [
+        ["css=.pgui-cell-edit-button", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd5619acc1bd']/table/tbody/tr/td[4]/span", "xpath:idRelative"],
+        ["xpath=//td[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7446886d-21c0-459f-9a2f-b0eeae41e0d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=pgpage-solicitarajuda",
+      "targets": [
+        ["id=pgpage-solicitarajuda", "id"],
+        ["css=#pgpage-solicitarajuda", "css:finder"],
+        ["xpath=//body[@id='pgpage-solicitarajuda']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be419acc-97de-43b9-b035-3162d1e139d9",
+      "comment": "",
+      "command": "type",
+      "target": "name=cursodousuario_edit",
+      "targets": [
+        ["name=cursodousuario_edit", "name"],
+        ["css=.form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='cursodousuario_edit']", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd5619de02fa']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "ZZZ"
+    }, {
+      "id": "8b810ddf-27f6-427d-94f9-ebc7f95f6a37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-save",
+      "targets": [
+        ["css=.js-save", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd5619de02fa']/span/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/span/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "66a1ab65-7ae0-4e08-890f-2b84ec37e42f",
+    "name": "Remover",
+    "commands": [{
+      "id": "fce49f09-6607-4cbd-a29d-16e8aac1a9a8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/solicitarajuda.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e827d510-566e-4b2f-844b-01f7a1074a6b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b3db466-7249-4860-80e7-435e70361af8",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e521916']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7c828f-7e8d-40c9-ae2f-1b44865007ab",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e521916']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Remover"
+    }, {
+      "id": "651ec4d2-f11f-421b-a282-f407806c2105",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e521916']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e838db2-4f96-4d3e-9f4a-d800de420373",
+      "comment": "",
+      "command": "click",
+      "target": "css=.operation-item:nth-child(3) > .link-icon",
+      "targets": [
+        ["css=.operation-item:nth-child(3) > .link-icon", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e9861ca']/table/tbody/tr/td[2]/span[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'solicitarajuda.php?operation=delete&pk0=2')]", "xpath:href"],
+        ["xpath=//span[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cb5f26d-2699-49f6-a0fc-199677c8e4b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//body[@id='pgpage-solicitarajuda']/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82197ced-8e8f-4cef-868d-36be5f7f325b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e9861ca']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93af22d7-9705-412a-b9f8-a1e19beb5b32",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e9861ca']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd059155-15a9-4ffa-8c00-8314e9b7e15e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='solicitarajudaGrid_5dd561e9861ca']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6b3eb1b-830d-4b0a-a2ee-6447db4cbc1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eb6f7a2d-8232-44ee-9401-397974e13b0f"]
+  }],
+  "urls": ["http://localhost/Helpi2/solicitarajuda.php"],
+  "plugins": []
+}
