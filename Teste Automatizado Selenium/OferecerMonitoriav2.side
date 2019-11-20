@@ -1,0 +1,427 @@
+{
+  "id": "e1a8ae5d-d800-4a99-a0f3-3f0ba3479208",
+  "version": "2.0",
+  "name": "OferecerMonitoriav2",
+  "url": "http://localhost/Helpi2/oferecermonitoria.php",
+  "tests": [{
+    "id": "bf9e74f1-fa9b-4f3e-beb9-3e99838c8098",
+    "name": "Consultar",
+    "commands": [{
+      "id": "f3df9187-bb15-4c03-a610-1a3e3ee5f24d",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/oferecermonitoria.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a2c9ff6-dfd4-4893-843a-b772aa42d1ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4480647-4212-4e19-a5a6-62be222c1a72",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562ba3e390']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3a38702-ecb7-4af9-8dae-1b57dd87efc1",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562ba3e390']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "CCO"
+    }, {
+      "id": "54d13b6f-b77e-4679-ae6f-76fd5b284260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562ba3e390']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa81ce9-f968-4e0b-8919-7e469a897594",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562be157b4']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7de9757-8156-462c-b8d3-8a8948d03724",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562be157b4']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Lucas"
+    }, {
+      "id": "0c2b56fc-fc11-48f5-85bb-b84e78574020",
+      "comment": "",
+      "command": "click",
+      "target": "id=toggle-dropdown",
+      "targets": [
+        ["id=toggle-dropdown", "id"],
+        ["css=#toggle-dropdown", "css:finder"],
+        ["xpath=//button[@id='toggle-dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562be157b4']/div/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68df6274-167c-46cf-9755-0b27e64bec3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=toggle-dropdown",
+      "targets": [
+        ["id=toggle-dropdown", "id"],
+        ["css=#toggle-dropdown", "css:finder"],
+        ["xpath=//button[@id='toggle-dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562be157b4']/div/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c415908e-4cfd-4a57-97df-263f0d70e778",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=toggle-dropdown",
+      "targets": [
+        ["id=toggle-dropdown", "id"],
+        ["css=#toggle-dropdown", "css:finder"],
+        ["xpath=//button[@id='toggle-dropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562be157b4']/div/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9755325b-d786-4390-8149-b6fdc74a7941",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562be157b4']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c24d48f7-215b-4e82-b18f-4ac789552efc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562c1cf079']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44415502-12b9-45dd-b650-09a5b6504957",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562c1cf079']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Engenharia de Software"
+    }, {
+      "id": "8a15ed8c-f8a0-4067-aabd-10c43437883c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562c1cf079']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a42fa99-325c-4c67-bc73-8abe637ee19b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addition-block",
+      "targets": [
+        ["css=.addition-block", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562c972e78']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f8e063-558a-4462-98e9-75edcddace5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562c972e78']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f89b10a-62fc-4aa6-ab1c-bd9191edfad7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562c972e78']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "961a09b4-41db-473a-bebf-e9edbd827125",
+    "name": "Alterar",
+    "commands": [{
+      "id": "7c9662e7-8a5c-452a-9cae-afc33473cbcd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/oferecermonitoria.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c9380d6-07fd-43cf-8ca7-4085143023f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b1aebd1-90de-4c8e-ab38-7a52cc229e06",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562e4cb93b']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96e3612c-41d4-47ab-844e-408ecfb4dee8",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562e4cb93b']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Alterar"
+    }, {
+      "id": "be6b4752-8af9-4ad4-8006-0a636dcc557e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default:nth-child(3)",
+      "targets": [
+        ["css=.btn-default:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562e4cb93b']/div/div[3]/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8e3bed-5938-451f-8d60-7b056f828472",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pgui-cell-edit-button",
+      "targets": [
+        ["css=.pgui-cell-edit-button", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd562ea6a86c']/table/tbody/tr/td[4]/span", "xpath:idRelative"],
+        ["xpath=//td[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8957d760-e6bf-4101-bda9-1efc62b7595a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pgpage-oferecermonitoria",
+      "targets": [
+        ["id=pgpage-oferecermonitoria", "id"],
+        ["css=#pgpage-oferecermonitoria", "css:finder"],
+        ["xpath=//body[@id='pgpage-oferecermonitoria']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96bae110-c894-4035-a00d-81125ef68d9f",
+      "comment": "",
+      "command": "type",
+      "target": "name=cursodomonitor_edit",
+      "targets": [
+        ["name=cursodomonitor_edit", "name"],
+        ["css=.form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='cursodomonitor_edit']", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd562ec41a3d']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "ZZZ"
+    }, {
+      "id": "fa6da6ba-2d81-47da-bbc5-bc1161e7d38a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-save",
+      "targets": [
+        ["css=.js-save", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//form[@id='Form5dd562ec41a3d']/span/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/span/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f3772d4b-edad-4570-bcea-f3386ea6baa6",
+    "name": "Remover",
+    "commands": [{
+      "id": "3b00f385-2d03-4e03-ad1c-19b546432709",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Helpi2/oferecermonitoria.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f00e978-b9e5-4de9-8852-0fe39ac5d3a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1176x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d03feaa-4fac-41d7-a038-c68e760de321",
+      "comment": "",
+      "command": "click",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd563527f6b2']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a7bb398-e034-4c64-b173-11744d7653c8",
+      "comment": "",
+      "command": "type",
+      "target": "name=quick_filter",
+      "targets": [
+        ["name=quick_filter", "name"],
+        ["css=.js-input", "css:finder"],
+        ["xpath=//input[@name='quick_filter']", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd563527f6b2']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Remover"
+    }, {
+      "id": "973a5cfc-e141-489b-ba81-9276b5b3e17c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search",
+      "targets": [
+        ["css=.icon-search", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd563527f6b2']/div/div[3]/div/div/div/button[2]/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "468f321e-7caf-4e97-99d4-ff012bb5d6bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.operation-item:nth-child(3) > .link-icon",
+      "targets": [
+        ["css=.operation-item:nth-child(3) > .link-icon", "css:finder"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd5635ab4739']/table/tbody/tr/td[2]/span[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'oferecermonitoria.php?operation=delete&pk0=3')]", "xpath:href"],
+        ["xpath=//span[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14895581-fa6a-4f48-ad72-e928730a77b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bootbox",
+      "targets": [
+        ["css=.bootbox", "css:finder"],
+        ["xpath=//body[@id='pgpage-oferecermonitoria']/div[4]", "xpath:idRelative"],
+        ["xpath=//body/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e258896-a623-4732-b38b-6106d0814e78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer:nth-child(2) > .btn-primary",
+      "targets": [
+        ["css=.modal-footer:nth-child(2) > .btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//body[@id='pgpage-oferecermonitoria']/div[4]/div/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac663542-5c87-4972-80e9-e65c9ba9d9e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-reset",
+      "targets": [
+        ["css=.js-reset", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='oferecermonitoriaGrid_5dd5635ab4739']/div/div[3]/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "550b284f-6dcb-4110-afe7-4866a13a6e95",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bf9e74f1-fa9b-4f3e-beb9-3e99838c8098"]
+  }],
+  "urls": ["http://localhost/Helpi2/oferecermonitoria.php"],
+  "plugins": []
+}
